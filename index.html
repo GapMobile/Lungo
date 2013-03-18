@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lungo 2.1 - Example</title>
+    <meta name="description" content="">
+    <meta name="author" content="Javier Jiménez Villar (@soyjavi)">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- iPhone -->
+    <link href="http://cdn.tapquo.com/lungo/icon-57.png" sizes="57x57" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPhone (Retina) -->
+    <link href="http://cdn.tapquo.com/lungo/icon-114.png" sizes="114x114" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPhone 5 -->
+    <link href="http://cdn.tapquo.com/lungo/startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPad -->
+    <link href="http://cdn.tapquo.com/lungo/icon-72.png" sizes="72x72" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina) -->
+    <link href="http://cdn.tapquo.com/lungo/icon-144.png" sizes="144x144" rel="apple-touch-icon">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="http://cdn.tapquo.com/lungo/startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="components/lungo/lungo.css">
+    <link rel="stylesheet" href="components/lungo/lungo.icon.css">
+    <link rel="stylesheet" href="components/lungo/lungo.icon.brand.css">
+    <link rel="stylesheet" href="components/lungo/lungo.css">
+    <link rel="stylesheet" href="components/lungo/theme.lungo.css">
+</head>
+
+<body class="app">
+    <section id="main" data-pull="normal" data-transition="slide">
+        <header>
+            <nav class="left">
+                <a href="#features" data-router="aside" data-icon="menu"></a>
+            </nav>
+        </header>
+
+        <article id="information" class="active list indented scroll">
+            <ul>
+                <li class="dark">
+                    <strong>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </strong>
+                </li>
+                <li data-icon="book" class="feature">
+                    <strong>Article #1</strong>
+                    Description about this article. This should be a little abstract of the given article.
+                </li>
+                <li data-icon="book" class="feature">
+                    <strong>Article #1</strong>
+                    Description about this article. This should be a little abstract of the given article.
+                </li>
+                <li data-icon="book" class="feature">
+                    <strong>Multi-Device full support</strong>
+                    Description about this article. This should be a little abstract of the given article.
+                </li>
+                <li data-icon="book" class="feature">
+                    <strong>Article #1</strong>
+                    Description about this article. This should be a little abstract of the given article.
+                </li>
+            </ul>
+        </article>
+
+        <article id="feeds" class="list">
+            <li class="dark">
+                <strong>
+                    Feeds
+                </strong>
+            </li>
+        </article>
+
+        <article id="forms" class="list">
+            <li class="dark">
+                <strong>
+                    Forms
+                </strong>
+            </li>
+			<div class="form">
+			    <fieldset data-icon="plus">
+	                <label>To:</label>
+	                <input type="text">
+	            </fieldset>
+	            <fieldset>
+	                <label>Cc/Cco:</label>
+	                <input type="text">
+	            </fieldset>
+	            <fieldset data-icon="pencil">
+	                <label>Subject:</label>
+	                <input type="text">
+	            </fieldset>
+	            <fieldset>
+	                <label>Summary:</label>
+	                <br>
+	                <input type="text">
+	            </fieldset>
+	            <fieldset>
+	                <textarea></textarea>
+	            </fieldset>
+	        </div>
+        </article>
+
+        <article id="extra" class="list">
+            <li class="dark">
+                <strong>
+                    Extra Elements
+                </strong>
+            </li>
+			<div class="form">
+				<fieldset data-icon="search">
+	                <input type="search" placeholder="Search...">
+	            </fieldset>
+	            <fieldset data-icon="plus">
+	                <label>Name:</label>
+	                <input type="text">
+	            </fieldset>
+	            <label>Pin Code</label>
+	            <input type="password" value="value" disabled="">
+	            <label>Select your skill</label>
+	                <label class="select">
+	                    <select class="custom">
+	                        <option value="1">HTML5 Jedi</option>
+	                        <option value="2">Two</option>
+	                        <option value="3">Three</option>
+	                    </select>
+	                </label>
+	                <label>Progress</label>
+	                <div id="progress-normal" data-progress="25%">
+	                </div>
+	                <label>Range</label>
+	                <input type="range" placeholder="type your name">
+	                <label>Checkbox</label>
+	                <br>
+	                <input type="range" class="checkbox" min="0" max="1" value="1">
+	            <fieldset>
+	                <label>Summary:</label>
+	                <textarea></textarea>
+	            </fieldset>
+	        </div>
+        </article>
+
+		<article id="scroll" class="list scroll">
+            <li class="dark">
+                <strong>
+                    Vertical Scroll
+                </strong>
+            </li>
+			<ul class="anchor">
+		        <img src="http://lorempixel.com/256/128/food/">
+                <img src="http://lorempixel.com/256/128/sports/">
+                <img src="http://lorempixel.com/256/128/people/">
+                <img src="http://lorempixel.com/256/128/technics/">
+                <img src="http://lorempixel.com/256/128/animals/">
+                <img src="http://lorempixel.com/256/128/nightlife/">
+                <img src="http://lorempixel.com/256/128/nature/">
+                <img src="http://lorempixel.com/256/128/transport/">
+                <img src="http://lorempixel.com/256/128/city/">
+                <img src="http://lorempixel.com/256/128/fashion/">
+                <img src="http://lorempixel.com/256/128/abstract/">
+            </ul>
+        </article>
+
+		<article id="refresh" class="list indented">
+			<ul>
+				<li class="dark" data-icon="help">
+	                    <strong>
+	                    Test this featury only drag down.
+	                </strong>
+	                <small>This element has an associated event</small>
+	            </li>
+        	</ul>
+        </article>
+    </section>
+
+    <aside id="features">
+        <header data-title="Menu"></header>
+        <article class="active list">
+            <ul>
+                <li class="current">
+                    <a href="#information" data-router="article">
+                        <strong>Articles</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#feeds" data-router="article">
+                        <strong>Feeds</strong>
+                    </a>
+                </li>
+				<li>
+                    <a href="#forms" data-router="article">
+                        <strong>Forms</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#extra" data-router="article">
+                        <strong>Extra form elemets</strong>
+                    </a>
+                </li>
+				<li>
+                    <a href="#scroll" data-router="article">
+                        <strong>Vertical Scroll</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#refresh" data-router="article">
+                        <strong>Pull and Refresh</strong>
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </aside>
+
+    <!-- Lungo - Dependencies -->
+    <script src="components/quojs/quo.js"></script>
+    <script src="components/lungo/lungo.js"></script>
+    <!-- Lungo - Sandbox App -->
+    <script>
+        Lungo.init({
+            name: 'example'
+        });
+		
+		// Javascript Code
+		var pull_example = new Lungo.Element.Pull('#refresh', {
+		    onPull: "Pull down to refresh",
+		    onRelease: "Release to get new data",
+		    onRefresh: "Refreshing...",
+		    callback: function() {
+		        alert("Pull & Refresh completed!");
+		        pull_example.hide();
+		    }
+		});
+    </script>
+</body>
+</html>
